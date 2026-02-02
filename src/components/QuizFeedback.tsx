@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import type { QuizStatus } from '../types';
 
 interface QuizFeedbackProps {
@@ -6,7 +6,7 @@ interface QuizFeedbackProps {
   onNextQuiz: () => void;
 }
 
-export const QuizFeedback: React.FC<QuizFeedbackProps> = ({
+export const QuizFeedback: FC<QuizFeedbackProps> = ({
   status,
   onNextQuiz,
 }) => {

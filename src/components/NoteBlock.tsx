@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import type { ComposedNote } from '../types';
 
 interface NoteBlockProps {
@@ -9,7 +9,7 @@ interface NoteBlockProps {
   showFraction?: boolean;
 }
 
-export const NoteBlock: React.FC<NoteBlockProps> = ({
+export const NoteBlock: FC<NoteBlockProps> = ({
   note,
   isPlaying,
   isCurrentNote,

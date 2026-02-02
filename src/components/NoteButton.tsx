@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import type { NoteType } from '../types';
 
 interface NoteButtonProps {
@@ -8,7 +8,7 @@ interface NoteButtonProps {
   remainingSpace: number; // 현재 마디의 남은 공간
 }
 
-export const NoteButton: React.FC<NoteButtonProps> = ({
+export const NoteButton: FC<NoteButtonProps> = ({
   note,
   onClick,
   disabled,

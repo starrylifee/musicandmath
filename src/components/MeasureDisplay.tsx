@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import { calculateTotalFraction } from '../data/notes';
 import type { ComposedNote } from '../types';
 
@@ -9,7 +9,7 @@ interface MeasureDisplayProps {
   onRemoveNote: (measureIndex: number, noteIndex: number) => void;
 }
 
-export const MeasureDisplay: React.FC<MeasureDisplayProps> = ({
+export const MeasureDisplay: FC<MeasureDisplayProps> = ({
   measures,
   currentNoteIndex,
   isPlaying,

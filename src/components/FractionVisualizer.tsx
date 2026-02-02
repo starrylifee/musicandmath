@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import type { Division } from '../types';
 
 interface FractionVisualizerProps {
@@ -6,7 +6,7 @@ interface FractionVisualizerProps {
   currentFraction: number;
 }
 
-export const FractionVisualizer: React.FC<FractionVisualizerProps> = ({
+export const FractionVisualizer: FC<FractionVisualizerProps> = ({
   division,
   currentFraction,
 }) => {

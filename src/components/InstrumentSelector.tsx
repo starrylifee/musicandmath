@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import type { InstrumentType } from '../types';
 
 interface InstrumentSelectorProps {
@@ -6,7 +6,7 @@ interface InstrumentSelectorProps {
   onChange: (instrument: InstrumentType) => void;
 }
 
-export const InstrumentSelector: React.FC<InstrumentSelectorProps> = ({
+export const InstrumentSelector: FC<InstrumentSelectorProps> = ({
   instrument,
   onChange,
 }) => {

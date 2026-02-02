@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import { Music } from 'lucide-react';
 import type { GameMode } from '../types';
 
@@ -7,7 +7,7 @@ interface HeaderProps {
   onModeChange: (mode: GameMode) => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({
+export const Header: FC<HeaderProps> = ({
   mode,
   onModeChange,
 }) => {

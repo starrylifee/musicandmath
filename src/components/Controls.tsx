@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import { Play, Square, RotateCcw, Check, Volume2 } from 'lucide-react';
 
 interface ControlsProps {
@@ -12,7 +12,7 @@ interface ControlsProps {
   onListenAgain?: () => void;
 }
 
-export const Controls: React.FC<ControlsProps> = ({
+export const Controls: FC<ControlsProps> = ({
   isPlaying,
   hasNotes,
   isQuizMode,

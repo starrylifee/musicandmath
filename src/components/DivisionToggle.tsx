@@ -1,4 +1,4 @@
-import React from 'react';
+import type { FC } from 'react';
 import type { Division } from '../types';
 
 interface DivisionToggleProps {
@@ -6,7 +6,7 @@ interface DivisionToggleProps {
   onChange: (division: Division) => void;
 }
 
-export const DivisionToggle: React.FC<DivisionToggleProps> = ({
+export const DivisionToggle: FC<DivisionToggleProps> = ({
   division,
   onChange,
 }) => {
