@@ -396,6 +396,16 @@ function App() {
               <li>• 16분음표 8개 = 8분음표 4개 = 4분음표 2개 = 2분음표 1개</li>
             </ul>
           </div>
+          
+          {/* 푸터 */}
+          <footer className="mt-8 pt-4 border-t border-gray-200 text-center">
+            <p className="text-sm text-gray-500">
+              © 2026 서울신답초등학교 정용석
+            </p>
+            <p className="text-xs text-gray-400 mt-1">
+              서울시교육청 제1호 교사개발자
+            </p>
+          </footer>
         </div>
       </div>
     </div>
