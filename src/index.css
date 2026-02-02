@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans KR', system-ui, -apple-system, sans-serif;
+}
